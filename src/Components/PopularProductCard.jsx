@@ -13,13 +13,13 @@ const PopularProductCard = (
       />
       <div className='mt-8 flex justify-start gap-2.5'>
         <img src={star} alt='rating' width={24} height={24} />
-        <p className='font-monsterrat text-slate-gray leading-normal text-xl'>
+        <p className='font-montserrat text-slate-gray leading-normal text-xl'>
           (4.5)
         </p>
 
       </div>
       <h3 className='mt-2 text-2xl leading-normal font-semibold font-palanquin'>{name}</h3>
-      <h3 className='mt-2 font-semibold font-montserrat text-coral-red text-21x leading-normal'>{price}</h3>
+      <h3 className='mt-2 font-semibold font-montserrat text-coral-red text-[21px] leading-normal'>{price}</h3>
 
     </div>
   )
