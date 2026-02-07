@@ -1,30 +1,41 @@
-# 👟 NikeNest – React E-Commerce Landing Page
+# NikeNest
 
-**NikeNest** is a stylish, responsive e-commerce landing page built with **React**, **Vite**, and **Tailwind CSS**. It showcases a modern Nike shoe collection with sections like product highlights, customer reviews, offers, and a newsletter subscription form.
+NikeNest is a responsive, static e-commerce landing page built with React, Vite, and Tailwind CSS. It highlights a Nike shoe collection with sections for products, services, customer reviews, special offers, and a newsletter signup.
 
-## 🚀 Features
+## Features
 
-- 🎯 Engaging hero section with product highlights
-- 🛍️ Popular products grid
-- 💼 Services section with icons and descriptions
-- 💬 Customer reviews with ratings
-- 📣 Special offers section
-- 📨 Email newsletter subscription form
-- 📱 Fully responsive design
-- ⚡ Blazing fast performance with Vite
+- Hero section with featured product
+- Popular products grid
+- Services section
+- Customer reviews
+- Special offer callout
+- Newsletter signup
+- Fully responsive layout
 
-## 📦 Tech Stack
+## Tech Stack
 
-- React 19 (with Hooks)
+- React
 - Vite
 - Tailwind CSS
-- GitHub Pages (for deployment)
 
-## 🌐 Live Demo
+## Scripts
 
-👉 [NikeNest on GitHub Pages](https://adarshsingh-1.github.io/NikeNest/)
+```bash
+npm install
+npm run dev
+npm run build
+```
 
----
+## Project Structure
 
-## 🧱 Project Structure
-
+```
+public/
+src/
+  assets/
+  Components/
+  constants/
+  sections/
+  App.jsx
+  index.css
+  main.jsx
+```
